@@ -15,7 +15,11 @@ function fetchMovies(){
                     title.textContent =
                 films.title;
                 let img =
-                
+                document.getElementById("movie-poster");
+                img.src =
+             films.poster;
+                let showTime =
+
                   
 
          }
